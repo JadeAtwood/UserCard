@@ -1,0 +1,47 @@
+body{
+    padding: 0px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    position: relative;    
+    outline: 2px;  outline-color:black;  width: 600px;
+    outline: solid;
+    outline-width: 2px;
+    margin-top: 50px;
+    display: grid;
+}
+#photo{
+    position: absolute;
+    top: 75px;
+    left: 20px;
+}
+
+.topBox{
+    background-color: mediumslateblue;
+    height: 100px;
+    width: 600px;
+}
+
+.bottomBox{
+    background-color: transparent;
+    height: 250px;
+    display: flex;
+}
+
+.you{
+    height: 50px;
+    width: 600px;
+}
+
+.textLoc{
+    width: 600px;
+}
+
+.profilePic:{
+    position: absolute;
+
+
+}
